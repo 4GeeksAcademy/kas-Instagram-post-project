@@ -3,34 +3,60 @@ body {
     border: none;
 }
 
-.case {background-color: white;
+.case {
+    background-color: white;
     width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
     display: flex;
-    margin: 0;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.top {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
 .top-left { 
     display: flex;
     flex-direction: row;
     gap: 5px;
     align-items: center;
 }
+
 h1 {
     margin: 0;
 }
-.top-right {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-}
+
 .image {
     flex-basis: 250px;
-    flex-direction: row;
-    align-items: center;
+    background-image: url(/background.jpg);  
+    background-position; center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .icons {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap 5px;
+    align-items: center;
+}
+
+.texts {
+    display: flex;
     flex-direction: column;
-    background-color: white;
+    gap: 10px;
+    padding: 10px;
+
+.button {
+    border: none;
+    background: none;
+    adding: 0;
+    margin: 0;
 }
